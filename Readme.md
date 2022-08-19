@@ -27,7 +27,6 @@
 
 ### Create Advert ###
 
-![](Homepage.png)
 ![](Advert.png)
 
 

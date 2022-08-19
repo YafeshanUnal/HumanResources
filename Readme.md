@@ -2,7 +2,7 @@
 
 <hr>
 
-#####This is a simple HR system. You can add, update, and delete adverts. And you can search for adverts by title, description, or location.*
+>This is a simple HR system. You can add, update, and delete adverts. And you can search for adverts by title, description, or location.
 
 
 ### Technologies ###
@@ -28,3 +28,6 @@
 ### Create Advert ###
 
 ![](Advert.png)
+
+
+Thanks for reading! Hope you enjoyed this project. :)

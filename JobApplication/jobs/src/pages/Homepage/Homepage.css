@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+.Homepage .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+  font: 32px Poppins, sans-serif;
+  cursor: pointer;
+  color: palegoldenrod;
+  font-weight: 800;
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+}
+
+.Homepage .navbar a {
+  text-decoration: none;
+  color: palegoldenrod;
+}
+
+.Homepage .navbar a:hover {
+  color: red;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+.Homepage .filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Homepage .filter select {
+  text-align: center;
+  margin-top: 20px;
+  border: 1px solid palegoldenrod;
+  background-color: #221;
+  border-radius: 5px;
+  padding: 10px;
+  font: 16px Poppins, sans-serif;
+  color: greenyellow;
+  font-weight: 800;
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+}
+
+.Homepage .filter button {
+  margin-top: 20px;
+  margin-left: 50px;
+  border: 1px solid palegoldenrod;
+  background-color: #221;
+  border-radius: 5px;
+  padding: 10px;
+  font: 16px Poppins, sans-serif;
+  color: khaki;
+  font-weight: 800;
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+}
+
+.Homepage .advert {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font: 20px Poppins, sans-serif;
+  color: palegoldenrod;
+}
+
+.Homepage .advert .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 80%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font: 20px Poppins, sans-serif;
+  color: palegoldenrod;
+}
+
+.Homepage .advert .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url("https://www.transparenttextures.com/patterns/dust.png");
+  margin: 10px;
+  width: 300px;
+  height: 330px;
+  border: 3px solid black;
+  border-top-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+  padding: 20px;
+}
+
+.Homepage .advert .card .card-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 13px;
+  border-top-left-radius: 10px;
+  background-color: #8f7878;
+  -webkit-box-shadow: 0px 0px 10px wheat;
+          box-shadow: 0px 0px 10px wheat;
+}
+
+.Homepage .advert .card .card-body {
+  margin-top: 10px;
+  height: 190px;
+  border-bottom-right-radius: 10px;
+  font: 18px Poppins, sans-serif;
+  color: white;
+  background-color: #8f7878;
+}
+
+.Homepage .advert .card .btn {
+  margin-left: 30px;
+  margin-top: 10px;
+  height: 60px;
+  width: 80%;
+  background-color: #d3c8ab;
+  cursor: pointer;
+  border: 3px solid #967dad;
+  border-radius: 10px;
+}
+
+.Homepage .advert .card .btn:hover {
+  background-color: #c58b8b;
+  color: wheat;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: perspective(500px) rotateY(360deg);
+          transform: perspective(500px) rotateY(360deg);
+  -webkit-transition-duration: 1.3s;
+          transition-duration: 1.3s;
+}
+/*# sourceMappingURL=Homepage.css.map */

@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+.Homepage {
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        font: 32px Poppins, sans-serif;
+        cursor: pointer;
+        color: palegoldenrod;
+        font-weight: 800;
+        background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+
+        a {
+            text-decoration: none;
+            color: palegoldenrod;
+        }
+        a:hover {
+            color: red;
+            transform: scale(1.1);
+            transition: all 1.5s;
+        }
+    }
+
+    .filter {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        select {
+            text-align: center;
+            margin-top: 20px;
+            border: 1px solid palegoldenrod;
+            background-color: #221;
+            border-radius: 5px;
+            padding: 10px;
+            font: 16px Poppins, sans-serif;
+            color: greenyellow;
+            font-weight: 800;
+            background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+        }
+
+        button {
+            margin-top: 20px;
+            margin-left: 50px;
+            border: 1px solid palegoldenrod;
+            background-color: #221;
+            border-radius: 5px;
+            padding: 10px;
+            font: 16px Poppins, sans-serif;
+            color: khaki;
+            font-weight: 800;
+            background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+        }
+    }
+
+    .advert {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        font: 20px Poppins, sans-serif;
+        color: palegoldenrod;
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            width: 80%;
+            justify-content: space-around;
+            font: 20px Poppins, sans-serif;
+            color: palegoldenrod;
+        }
+        .card {
+            display: flex;
+            flex-direction: column;
+            background-image: url("https://www.transparenttextures.com/patterns/dust.png");
+
+            margin: 10px;
+            width: 300px;
+            height: 330px;
+            border: 3px solid black;
+            border-top-left-radius: 15%;
+            border-bottom-right-radius: 15%;
+            padding: 20px;
+            .card-header {
+                display: flex;
+                padding: 13px;
+                border-top-left-radius: 10px;
+                background-color: rgb(143, 120, 120);
+                box-shadow: 0px 0px 10px wheat;
+            }
+
+            .card-body {
+                margin-top: 10px;
+                height: 190px;
+                border-bottom-right-radius: 10px;
+                font: 18px Poppins, sans-serif;
+                color: white;
+                background-color: rgb(143, 120, 120);
+            }
+
+            .btn {
+                margin-left: 30px;
+                margin-top: 10px;
+                height: 60px;
+                width: 80%;
+                background-color: #d3c8ab;
+                cursor: pointer;
+                border: 3px solid rgb(150, 125, 173);
+                border-radius: 10px;
+            }
+
+            .btn:hover {
+                background-color: rgb(197, 139, 139);
+                color: wheat;
+                transition: 0.5s;
+                transform: perspective(500px) rotateY(360deg);
+                transition-duration: 1.3s;
+            }
+        }
+    }
+}

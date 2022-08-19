@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+
+.Advert {
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        font: 32px Poppins, sans-serif;
+        cursor: pointer;
+        color: palegoldenrod;
+        font-weight: 800;
+        background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+
+        a {
+            text-decoration: none;
+            color: palegoldenrod;
+        }
+        a:hover {
+            color: red;
+            transform: scale(1.1);
+            transition: all 1.5s;
+        }
+    }
+
+    form {
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 700px;
+            height: 700px;
+            border-radius: 15px;
+            font: 16px Poppins, sans-serif;
+            color: palegoldenrod;
+            background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+            border: 5px double palegoldenrod;
+
+            .card-head {
+                margin-bottom: 20px;
+            }
+
+            .card-body {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 750px;
+                height: 500px;
+                border-radius: 5px;
+
+                padding: 10px;
+                font: 16px Poppins, sans-serif;
+                color: palegoldenrod;
+
+                span {
+                    margin-top: 3px;
+                }
+                input {
+                    margin-top: 10px;
+                    border: 1px solid palegoldenrod;
+                    border-radius: 5px;
+                    background-color: rgba(0, 0, 0, 0.233);
+                    padding: 7px;
+                    font: 16px Poppins, sans-serif;
+                    color: palegoldenrod;
+                    font-weight: 800;
+                    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+                }
+            }
+            button {
+                margin-top: 20px;
+                border: 1px solid palegoldenrod;
+                background-color: #221;
+                border-radius: 5px;
+                padding: 10px;
+                font: 16px Poppins, sans-serif;
+                color: bisque;
+                font-weight: 800;
+                background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: palegoldenrod;
+                color:black;
+                transform: skew(-20deg);
+                transition: 2.5s;
+            }
+        }
+    }
+}

@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+.Advert .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+  font: 32px Poppins, sans-serif;
+  cursor: pointer;
+  color: palegoldenrod;
+  font-weight: 800;
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+}
+
+.Advert .navbar a {
+  text-decoration: none;
+  color: palegoldenrod;
+}
+
+.Advert .navbar a:hover {
+  color: red;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+.Advert form .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 700px;
+  height: 700px;
+  border-radius: 15px;
+  font: 16px Poppins, sans-serif;
+  color: palegoldenrod;
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+  border: 5px double palegoldenrod;
+}
+
+.Advert form .card .card-head {
+  margin-bottom: 20px;
+}
+
+.Advert form .card .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 750px;
+  height: 500px;
+  border-radius: 5px;
+  padding: 10px;
+  font: 16px Poppins, sans-serif;
+  color: palegoldenrod;
+}
+
+.Advert form .card .card-body span {
+  margin-top: 3px;
+}
+
+.Advert form .card .card-body input {
+  margin-top: 10px;
+  border: 1px solid palegoldenrod;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.233);
+  padding: 7px;
+  font: 16px Poppins, sans-serif;
+  color: palegoldenrod;
+  font-weight: 800;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+}
+
+.Advert form .card button {
+  margin-top: 20px;
+  border: 1px solid palegoldenrod;
+  background-color: #221;
+  border-radius: 5px;
+  padding: 10px;
+  font: 16px Poppins, sans-serif;
+  color: bisque;
+  font-weight: 800;
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+  cursor: pointer;
+}
+
+.Advert form .card button:hover {
+  background-color: palegoldenrod;
+  color: black;
+  -webkit-transform: skew(-20deg);
+          transform: skew(-20deg);
+  -webkit-transition: 2.5s;
+  transition: 2.5s;
+}
+/*# sourceMappingURL=Advert.css.map */
